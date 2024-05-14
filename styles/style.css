@@ -27,7 +27,7 @@
   list-style-type: none;
 }
 
-.header__link{
+.header__link {
   text-decoration: underline;
   text-underline-offset: 4px;
   line-height: 22px;
@@ -69,7 +69,7 @@
   line-height: 25px;
   text-decoration: underline;
   text-underline-offset: 3px;
-} 
+}
 /* Стили блока заголовка с картинкой */
 .cover {
   display: flex;
@@ -144,7 +144,6 @@
 }
 
 .cover__description-text {
-  padding-left: 16px;
   align-self: center;
   word-spacing: 1.15rem;
   padding-left: 30px;
@@ -220,10 +219,10 @@
 }
 
 .card__content {
- display: flex;
- flex-direction: column;
- justify-content: space-between;
- align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
   z-index: 1;
   padding: 51px 40px;
 }
@@ -268,7 +267,7 @@
   height: 240px;
   display: flex;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
 }
 
 .about__logo-image {
@@ -284,13 +283,13 @@
   font-size: 40px;
   font-weight: 700;
   text-align: left;
-  text-transform: uppercase; 
+  text-transform: uppercase;
 }
 
 .about__text {
   font-size: 20px;
   line-height: 24px;
-  padding-top: 100px;  
+  padding-top: 100px;
 }
 
 .about__text-padding {
@@ -301,7 +300,7 @@
   display: flex;
   justify-content: space-between;
   padding: 0 50px;
-} 
+}
 
 .footer__address {
   font-size: 18px;
@@ -338,10 +337,9 @@
 
 .footer__social-list-item {
   list-style-type: none;
-} 
+}
 
 .footer__social-icon {
   width: 48px;
   height: 48px;
-} 
-
+}
